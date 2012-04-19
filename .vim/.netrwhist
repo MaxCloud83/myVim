@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/guo/try-sp3/share/pdgn2/application/modules/main/views/scripts-sp/duel'
+let g:netrw_dirhist_2='/home/guo/try-sp3/share/pdgn2/application/modules/main'
+let g:netrw_dirhist_3='/home/guo/try-sp3/share/pdgn2/application/modules/main/views'
+let g:netrw_dirhist_4='/home/guo/try-sp3/share/pdgn2/application/modules/main/views/scripts'
+let g:netrw_dirhist_5='/home/guo/try-sp3/share/pdgn2/application/modules/main/views'
+let g:netrw_dirhist_6='/home/guo/try-sp3/share/pdgn2/application/modules/main/views/resources'
+let g:netrw_dirhist_7='/home/guo/try-sp3/share/pdgn2/application/modules/main/views/resources/html'
+let g:netrw_dirhist_8='/home/guo/try-sp3/share/pdgn2/application/modules/main/views/resources/html/duel'
+let g:netrw_dirhist_9='/home/guo/try-sp3/share/pdgn2/application/modules/main/views/resources/html/duel/pvp_battle_trap'
