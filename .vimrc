@@ -9,6 +9,7 @@ highlight Search ctermfg=lightyellow
 let g:neocomplcache_enable_at_startup = 1
 autocmd VimEnter * NERDTree
 
+
 highlight ZenkakuSpace cterm=underline ctermfg=lightblue guibg=white
 match ZenkakuSpace /　/
 set ts=4
