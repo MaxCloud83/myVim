@@ -5,10 +5,12 @@ highlight NonText ctermfg=darkgrey
 highlight Folded ctermfg=blue
 highlight SpecialKey cterm=underline ctermfg=darkgrey
 highlight Search ctermfg=lightyellow
+highlight Pmenu ctermfg=8
+highlight PmenuSel ctermfg=1
+highlight PmenuSbar ctermfg=0
 
 let g:neocomplcache_enable_at_startup = 1
 autocmd VimEnter * NERDTree
-
 
 highlight ZenkakuSpace cterm=underline ctermfg=lightblue guibg=white
 match ZenkakuSpace /　/
@@ -19,8 +21,11 @@ set softtabstop=4
 set termencoding=utf-8
 set list
 set listchars=tab:>_,extends:<,trail:_
-"set number
+set nocompatible
+set number
 set hlsearch
+
+inoremap <expr> _  smartchr#loop(' = ', '=', ' == ')
 
 " 文字コード指定htmlファイルはcp932
 function! s:html()
